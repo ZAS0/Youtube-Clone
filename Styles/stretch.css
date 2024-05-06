@@ -1,0 +1,17 @@
+    button{
+        background-color: darkgreen;
+        color: white;
+        padding-left: 6px;
+        padding-top: 3px;
+        padding-bottom: 3px;
+        padding-right: 6px;
+        border: none;
+        cursor: pointer;
+        transition: padding 0.50s;
+    }
+    button:hover{
+        padding-left: 18px;
+        padding-top: 9px;
+        padding-bottom:9px;
+        padding-right: 18px;
+    }

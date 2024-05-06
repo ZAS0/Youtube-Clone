@@ -1,0 +1,50 @@
+.descrip{
+    font-family: Arial;
+    font-size: 30px;
+    font-weight: bold;
+    width: 480px;
+    margin-top: 0;
+    margin-bottom: 0;
+    line-height: normal;
+}
+.view{
+    font-family: Arial;
+    font-size: 18px;
+    color: rgb(110, 109, 109);
+    margin-top: 0;
+    margin-bottom: 32px;
+
+}
+.author{
+    font-family: Arial;
+    font-size: 18px;
+    margin-top: 0;
+    margin-bottom: 20px;
+    color: grey;
+
+}
+.content{
+    font-family: Arial;
+    color: grey;
+    font-size: 20px;
+    font-style: normal;
+    width: 480px;
+    line-height: 30px;
+    text-align: justify;
+    margin-top: 0px;
+    margin-bottom: 120px;
+}
+.apple{
+    background-color: red;
+    font-size: medium;
+    font-family: Arial;
+    color: white;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: center;
+    font-weight: bold;
+}
+.element:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}

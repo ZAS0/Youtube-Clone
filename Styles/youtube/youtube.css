@@ -1,0 +1,109 @@
+body{
+    margin: 0;
+    padding-top: 57px;
+    padding-left: 72px;
+    height: 1207px;
+}
+
+p{
+    font-family: Roboto,Arial,sans-serif;
+}
+.img{
+    width: 100%;
+    display: inline-block;
+}
+.container1{
+    vertical-align: top;
+    padding: 4px;
+}
+.video-info-grid{
+    display: grid;
+    vertical-align: top;
+    margin-right: 12px;
+    grid-template-columns: 50px 1fr;
+}
+.container2{
+    vertical-align: top;
+    padding: 4px;
+}
+.descrip{
+    width: 100%;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 20px;
+    margin-top: 12px;
+    margin-bottom: 8px;
+}
+.descrip1{
+    margin-bottom: 0px;
+    margin-top: 0px;
+    font-size: 12px;
+    color: rgb(96, 96, 96);
+    font-weight: 400;
+    line-height: 18px;
+}
+.chn_logo{
+    vertical-align: top;
+    margin-top: 15px;
+    margin-right: 10px;
+}
+.logo1{
+    border-radius: 70px;
+    width: 36px;
+}
+.video-time{
+    position: absolute;
+    background-color: black;
+    color: white;
+    bottom: 7px;
+    right: 4px;
+    font-size: 12px;
+    font-weight: 600;
+    font-family: Roboto,Arial,sans-serif;
+    border-radius: 2px;
+    padding: 2px;
+    padding-right: 4px;
+    
+}
+.thumbnail-pic{
+    position: relative;
+}
+
+a{
+    color: black;
+    text-decoration:none;
+}
+
+.Grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    column-gap: 8px;
+    row-gap: 16px;       
+    padding: 20px;
+    background-color: rgb(248, 248, 248);    
+}
+
+@media (max-width:1029px){
+    .Grid{
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+}
+
+
+@media (min-width:1030px) and (max-width:1039){
+    .Grid{
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+}
+
+@media (max-width:872px){
+    .Grid{
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media (min-width:1040px){
+    .Grid{
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+}
